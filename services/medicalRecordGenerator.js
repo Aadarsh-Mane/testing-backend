@@ -6,10 +6,9 @@ export const generateSymptomsHTML = (
   hospital
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
   const hospitalName = "BHOSALE HOSPITAL";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {
@@ -374,9 +373,8 @@ export const generateSymptomsHTML = (
 
 export const generateVitalsHTML = (patientHistory, latestRecord, hospital) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {
@@ -701,9 +699,8 @@ export const generateDiagnosisHTML = (
   hospital
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {
@@ -1109,9 +1106,8 @@ export const generatePrescriptionsHTML = (
   hospital
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {
@@ -1480,9 +1476,8 @@ export const generateConsultingHTML = (
   hospital
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {
@@ -1875,9 +1870,8 @@ export const generateDoctorNotesHTML = (
   hospital
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalAddress =
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalAddress = "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = "Phone No.9923537180";
 
   const formatDateWithTime = (date) => {

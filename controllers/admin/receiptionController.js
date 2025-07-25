@@ -992,7 +992,7 @@ export const generateBillForDischargedPatient = async (req, res) => {
 </head>
 <body>
     <div class="header">
-        <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png" alt="Hospital Logo" />
+        <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg" alt="Hospital Logo" />
         <h1>Hospital Bill</h1>
     </div>
     <div class="patient-details">
@@ -1480,7 +1480,7 @@ export const getDoctorAdvice = async (req, res) => {
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png" alt="header">
+            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg" alt="header">
         </div>
         <div class="details">
             <div class="details-row">
@@ -1776,7 +1776,7 @@ export const generateFinalReceipt = async (req, res) => {
 </head>
 <body>
   <div class="container">
-    <h1>Bhosale Hospital</h1>
+    <h1>Tambe Hospital</h1>
     <h2>Payment Receipt</h2>
     <div class="details">
       <table>
@@ -2028,7 +2028,7 @@ export const getDoctorAdvic1 = async (req, res) => {
 <body>
     <div class="container">
         <div class="header">
-            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png" alt="header">
+            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg" alt="header">
         </div>
         <div class="details">
             <div class="details-row">
@@ -2330,7 +2330,7 @@ export const getDoctorSheet = async (req, res) => {
 <body>
     <div class="container" id="page-1">
         <div class="header">
-            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png" alt="header">
+            <img src="https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg" alt="header">
             <h3>DOCTOR INITIAL ASSESSMENT SHEET</h3>
         </div>
         <div class="section">
@@ -3156,7 +3156,7 @@ export const generateOpdReceipt = async (req, res) => {
 </head>
 <body>
   <div class="container">
-    <h1>Bhosale Hospital</h1>
+    <h1>Tambe Hospital</h1>
     <h2>Payment Receipt</h2>
     <div class="details">
       <table>
@@ -3377,7 +3377,7 @@ export const generateaIpddReceipt = async (req, res) => {
 </head>
 <body>
   <div class="container">
-    <h1>Bhosale Hospital</h1>
+    <h1>Tambe Hospital</h1>
     <h2>Payment Receipt</h2>
     <div class="details">
       <table>
@@ -6352,9 +6352,8 @@ export const createDepositReceipt = async (req, res) => {
         isActive: true,
       },
       hospitalDetails: hospitalDetails || {
-        hospitalName: "Bhosale Hospital",
-        hospitalAddress:
-          "1Shete mala, Near Ganesh Temple,Narayanwadi Road,Narayangaon,Tal Junnar,Dist Pune,Pin 410504",
+        hospitalName: "Tambe Hospital",
+        hospitalAddress: "Otur,Tal Junnar,Dist Pune,Pin 410504",
         hospitalContact: "+91-9876543210",
         hospitalEmail: "info@cityhospital.com",
         registrationNumber: "REG/2024/001",
@@ -7226,14 +7225,13 @@ export const generatePatientRecordPDFs = async (req, res) => {
 
     // Hardcoded hospital information
     const hospital = {
-      name: "Bhosale Hospital",
-      address:
-        "1Shete mala, Near Ganesh Temple,Narayanwadi Road,Narayangaon,Tal Junnar,Dist Pune,Pin 410504",
+      name: "Tambe Hospital",
+      address: "Otur,Tal Junnar,Dist Pune,Pin 410504",
       phone: "+91 9876543210",
-      email: "info@bhosalehospital.com",
-      website: "www.bhosalehospital.com",
+      email: "info@tambehospital.com",
+      website: "www.tambehospital.com",
       bannerImageUrl:
-        "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png",
+        "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg",
       folderId: "1Trbtp9gwGwNF_3KNjNcfL0DHeSUp0HyV", // Your Google Drive folder ID
     };
 

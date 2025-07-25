@@ -152,7 +152,7 @@ export const generateBillHTML = (sale) => {
       <body>
         <div class="invoice-container">
           <div class="invoice-header">
-            <h1>BHOSALE MEDICO</h1>
+            <h1>Tambe MEDICO</h1>
             <p>Your Health, Our Priority</p>
             <div class="license-info">
               <p>License No: MH-PZ6-595873</p>

@@ -6,7 +6,7 @@
 //   lengthOfStay
 // ) => {
 //   const hospitalBanner =
-//     "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
+//     "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
 //   const hospitalName = process.env.HOSPITAL_NAME || "BHOSALE HOSPITAL";
 //   const hospitalAddress =
 //     process.env.HOSPITAL_ADDRESS ||
@@ -556,11 +556,10 @@ export const generateDischargeBillHTML = (
   lengthOfStay
 ) => {
   const hospitalBanner =
-    "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png";
-  const hospitalName = process.env.HOSPITAL_NAME || "BHOSALE HOSPITAL";
+    "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg";
+  const hospitalName = process.env.HOSPITAL_NAME || "Tambe HOSPITAL";
   const hospitalAddress =
-    process.env.HOSPITAL_ADDRESS ||
-    "Shete mala,Near Ganesh Temple Narayanwadi Road Narayangaon Tal Junnar Dist Pune Pin 410504";
+    process.env.HOSPITAL_ADDRESS || "Otur, Tal Junnar Dist Pune Pin 410504";
   const hospitalPhone = process.env.HOSPITAL_PHONE || "Phone No.9923537180";
 
   // Updated date formatting function to include time in IST
@@ -1178,7 +1177,7 @@ function getChargeDescription(chargeType) {
 
 export const generateOPDBillHTML = (
   data,
-  bannerImageUrl = "https://res.cloudinary.com/dnznafp2a/image/upload/v1752657276/Spandan_Hospital_8_1_qfbqgb.png"
+  bannerImageUrl = "https://res.cloudinary.com/dnznafp2a/image/upload/v1753433658/WhatsApp_Image_2025-07-25_at_13.14.51_eziqer.jpg"
 ) => {
   return `
     <!DOCTYPE html>
